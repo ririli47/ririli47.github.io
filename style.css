@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+body	{font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;}
+
+/*　ナビゲーションバー　navbar-static */
+.menu{
+    margin: 0
+}
