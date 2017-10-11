@@ -6,3 +6,83 @@ body	{font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;}
 .menu{
     margin: 0;
 }
+
+/* main1-app */
+.main1-app {
+  padding: 110px 0 0 0;
+}
+
+.main1-app img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 50px auto 0 auto;
+  vertical-align: bottom;
+}
+
+.main1-app h1 {
+  margin: 0 0 30px 0;
+  font-size: 50px;
+  font-family: 'sans-serif';
+  line-height: 1.2;
+}
+
+.main1-app p {
+  margin: 0 0 25px 0;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.main1-app button {
+  text-shadow: none;
+}
+
+/* main1-app 背景画像の設定 */
+.main1-app {
+  background-image: url(img/bg_main3.JPG);
+  background-position: 35% 30%;
+  background-size: cover;
+  color: #fff;
+  text-shadow: 1px 1px 10px #000;
+}
+
+
+/* main1-app メディアクエリの設定 */
+@media (max-width: 450px) {
+
+  .main1-app {
+    padding: 30px 0 0 0;
+  }
+  .main1-app h1 {
+    font-size: 40px
+  }
+  .main1-app p {
+    font-size: 16px
+  }
+}
+
+/* main2-app */
+.main2-app {
+  padding: : 70px 0 70px 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.main2-app img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto 30px auto;
+  vertical-align: bottom;
+}
+
+.main2-app h2 {
+  margin: 30px 0 15px 0;
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+.main2-app p {
+  margin: 0 0 15px 0;
+  font-size: 16px;
+  line-height: 1.5:
+}
