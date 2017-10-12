@@ -86,3 +86,135 @@ body	{font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;}
   font-size: 16px;
   line-height: 1.5:
 }
+
+
+/* main3-app */
+.main3-app {
+  padding: 70px 0 70px 0;
+  background-color: rgb(238, 104, 148);
+  color: #fff;
+}
+
+.main3-app img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 35px auto;
+  vertical-align: bottom;
+}
+
+.main3-app h2 {
+  margin: 0 0 50px 0;
+  font-size: 28px;
+  line-height: 1.5;
+}
+
+.main3-app p {
+  margin: 0 0 20px 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+/* main4-app */
+.main4-app {
+  padding: 70px 0 70px 0;
+  background-color: rgb(123, 241, 124);
+  color: #fff;
+}
+
+.main4-app img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 35px auto;
+  vertical-align: bottom;
+}
+
+.main4-app h2 {
+  margin: 0 0 50px 0;
+  font-size: 28px;
+  line-height: 1.5;
+}
+
+.main4-app p {
+  margin: 0 0 20px 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+/* footer */
+.footer {
+  padding: 15px 0 25px 0;
+  background-color: rgb(27, 27, 26);
+  color: #fff;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.tel {
+  padding-bottom: 15px;
+}
+
+.footer address {
+  margin: 0 0 3px 0;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+/* essential */
+.essential {
+  color: rgb(255, 0, 0);
+  font-weight: normal;
+  font-size: 120%;
+}
+
+/* form */
+.form-control {
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .formarea {
+    padding: 15px 0 0 0;
+    text-align: center;
+  }
+  .regist_button {
+    margin-left: 125px;
+  }
+}
+
+.copyarea {
+  padding: 30px 0 0 0;
+  background-color: rgb(27, 27, 26);
+  color: #fff;
+}
+
+/* PAGE TOP */
+#page-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 80%;
+}
+
+#page-top a {
+  background: #666;
+  text-decoration: none;
+  color: #fff;
+  width: 100px;
+  padding: 25px 0;
+  text-align: center;
+  display: block;
+  border-radius: 10px;
+}
+
+#page-top a:hover {
+  text-decoration: none;
+  background: #999;
+}
