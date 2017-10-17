@@ -22,12 +22,9 @@ $(function() {
   $('a[href^="#"]').click(function() {
     var speed = 500;
     var href = $(this).attr("href");
-    console.log(href);
     var target = $(href == "#" || href == "" ? 'html' : href);
-    console.log(target);
-    var position = target.offset();
-    console.log(target.offset());
-    $('html, body').animate({scrollTop:position.top}, speed, 'swing');
+    var position = target.offset().top;
+    $('html, body').animate({scrollTop:position}, speed, 'swing');
     return false;
   });
 });

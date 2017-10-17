@@ -76,7 +76,7 @@ body	{font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;}
 }
 
 .main2-app h2 {
-  margin: 100px 0 15px 0;
+  margin: 70px 0 20px 0;
   font-size: 30px;
   line-height: 1.2;
 }
@@ -96,7 +96,7 @@ body	{font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;}
 
 /* main3-app */
 .main3-app {
-  padding: 70px 0 70px 0;
+  padding: 20px 0 20px 0;
   'background-color: rgb(238, 104, 148);
   color: #fff;
 }
@@ -150,6 +150,19 @@ body	{font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;}
   line-height: 1.5;
 }
 
+
+/* main5-app */
+.main5-app {
+  padding: : 70px 0 70px 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.main5-app h1 {
+  margin: 70px 0 20px 0;
+  font-size: 30px;
+  line-height: 1.5;
+}
 
 /* footer */
 .footer {
