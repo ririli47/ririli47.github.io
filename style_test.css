@@ -9,20 +9,20 @@ body	{font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;}
 
 /* main1-app */
 .main1-app {
-  padding: 500px 0 0 0;
+  padding: 110px 0 0 0;
 }
 
 .main1-app img {
   display: block;
-  max-width:100%;
+  max-width: 100%;
   height: auto;
   margin: 50px auto 0 auto;
   vertical-align: bottom;
 }
 
 .main1-app h1 {
-  margin: 0 0 100px 0;
-  font-size: 100px;
+  margin: 0 0 30px 0;
+  font-size: 50px;
   font-family: 'sans-serif';
   line-height: 1.2;
 }
@@ -76,19 +76,13 @@ body	{font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;}
 }
 
 .main2-app h2 {
-  margin: 70px 0 20px 0;
-  font-size: 30px;
-  line-height: 1.2;
-}
-
-.main2-app h2#lang {
-  margin: 50px 0 15px 0;
+  margin: 30px 0 15px 0;
   font-size: 30px;
   line-height: 1.2;
 }
 
 .main2-app p {
-  margin: 0px 0 15px 0;
+  margin: 0 0 15px 0;
   font-size: 16px;
   line-height: 1.5:
 }
@@ -96,11 +90,10 @@ body	{font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;}
 
 /* main3-app */
 .main3-app {
-  padding: 20px 0 20px 0;
-  'background-color: rgb(238, 104, 148);
+  padding: 70px 0 70px 0;
+  background-color: rgb(238, 104, 148);
   color: #fff;
 }
-
 
 .main3-app img {
   display: block;
@@ -126,7 +119,7 @@ body	{font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;}
 /* main4-app */
 .main4-app {
   padding: 70px 0 70px 0;
-  'background-color: rgb(123, 241, 124);
+  background-color: rgb(123, 241, 124);
   color: #fff;
 }
 
@@ -150,19 +143,6 @@ body	{font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;}
   line-height: 1.5;
 }
 
-
-/* main5-app */
-.main5-app {
-  padding: : 70px 0 70px 0;
-  background-color: #fff;
-  text-align: center;
-}
-
-.main5-app h1 {
-  margin: 70px 0 20px 0;
-  font-size: 30px;
-  line-height: 1.5;
-}
 
 /* footer */
 .footer {
