@@ -7,162 +7,50 @@ body	{font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;}
     margin: 0;
 }
 
-/* main1-app */
-.main1-app {
+/* top-image */
+
+.top-image {
   padding: 500px 0 0 0;
 }
 
-.main1-app img {
-  display: block;
-  max-width:100%;
-  height: auto;
-  margin: 50px auto 0 auto;
-  vertical-align: bottom;
-}
 
-.main1-app h1 {
-  margin: 0 0 100px 0;
-  font-size: 100px;
+.top-image h1 {
+  margin: 0 0 200px 0;
+  font-size: 50px;
   font-family: 'sans-serif';
   line-height: 1.2;
 }
 
-.main1-app p {
-  margin: 0 0 25px 0;
-  font-size: 20px;
-  line-height: 1.5;
-}
-
-.main1-app button {
-  text-shadow: none;
-}
-
-/* main1-app 背景画像の設定 */
-.main1-app {
-  background-image: url(img/bg_main3.JPG);
-  background-position: 35% 30%;
-  background-size: cover;
-  color: #fff;
-  text-shadow: 1px 1px 10px #000;
-}
-
-
-/* main1-app メディアクエリの設定 */
+/* top-image メディアクエリの設定 */
 @media (max-width: 450px) {
 
-  .main1-app {
-    padding: 30px 0 0 0;
+  .top-image {
+    padding: 200px 0 0 0;
   }
-  .main1-app h1 {
-    font-size: 40px
+  .top-image h1 {
+    font-size: 50px
   }
-  .main1-app p {
+  .top-image p {
     font-size: 16px
   }
 }
 
-/* main2-app */
-.main2-app {
-  padding: : 70px 0 70px 0;
+
+/* works */
+.works {
+  padding: : 200px 0 150px 0;
   background-color: #fff;
   text-align: center;
 }
 
-.main2-app img {
-  max-width: 100%;
-  height: auto;
-  margin: 20px auto 30px auto;
-  vertical-align: bottom;
-}
 
-.main2-app h2 {
-  margin: 70px 0 20px 0;
+.works h2 {
+  margin: 200px 0 20px 0;
   font-size: 30px;
   line-height: 1.2;
 }
 
-.main2-app h2#lang {
-  margin: 50px 0 15px 0;
-  font-size: 30px;
-  line-height: 1.2;
-}
 
-.main2-app p {
-  margin: 0px 0 15px 0;
-  font-size: 16px;
-  line-height: 1.5:
-}
-
-
-/* main3-app */
-.main3-app {
-  padding: 20px 0 20px 0;
-  'background-color: rgb(238, 104, 148);
-  color: #fff;
-}
-
-
-.main3-app img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin: 0 auto 35px auto;
-  vertical-align: bottom;
-}
-
-.main3-app h2 {
-  margin: 0 0 50px 0;
-  font-size: 28px;
-  line-height: 1.5;
-}
-
-.main3-app p {
-  margin: 0 0 20px 0;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-
-/* main4-app */
-.main4-app {
-  padding: 70px 0 70px 0;
-  'background-color: rgb(123, 241, 124);
-  color: #fff;
-}
-
-.main4-app img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin: 0 auto 35px auto;
-  vertical-align: bottom;
-}
-
-.main4-app h2 {
-  margin: 0 0 50px 0;
-  font-size: 28px;
-  line-height: 1.5;
-}
-
-.main4-app p {
-  margin: 0 0 20px 0;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-
-/* main5-app */
-.main5-app {
-  padding: : 70px 0 70px 0;
-  background-color: #fff;
-  text-align: center;
-}
-
-.main5-app h1 {
-  margin: 70px 0 20px 0;
-  font-size: 30px;
-  line-height: 1.5;
-}
 
 /* footer */
 .footer {
