@@ -19,70 +19,68 @@
   </head>
 <body>
 
-  <!--navbar-inverseで黒色のナビゲーションへ-->
- <nav class="navbar navbar-inverse navbar-fixed-top">
+<!--navbar-inverseで黒色のナビゲーションへ-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
 
-     <!--ウィンドウ幅に合わせて可変-->
-    <div class="container-fluid">
+   <!--ウィンドウ幅に合わせて可変-->
+  <div class="container-fluid">
 
-      <div class="navbar-header">
+    <div class="navbar-header">
 
-        <!--スマホ用トグルボタンの設置-->
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
+      <!--スマホ用トグルボタンの設置-->
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
 
-        <!--ロゴ表示の指定-->
-        <a class="navbar-brand" href="#">Ririli's Portfolio</a>
-      </div>
+      <!--ロゴ表示の指定-->
+      <a class="navbar-brand" href="#">Ririli's Portfolio</a>
+    </div>
 
-        <!--スマホ用の画面幅が小さいときの表示を非表示にする-->
-      <div id="navbar" class="navbar-collapse collapse">
+      <!--スマホ用の画面幅が小さいときの表示を非表示にする-->
+    <div id="navbar" class="navbar-collapse collapse">
 
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#home">Home</a></li>
-          <li><a href="#work">Works</a></li>
-          <li><a href="#skill">Skills</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-     			<li><a href="https://github.com/ririli47" target="_blank">Github</a></li>
-     			<li><a href="https://qiita.com/ririli" target="_blank">Qiita</a></li>
-     		</ul>
-      </div><!--/.nav-collapse -->
-    </div><!--/.container-fluid -->
-  </nav>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#home">Home</a></li>
+        <li><a href="#work">Works</a></li>
+        <li><a href="#skill">Skills</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+   			<li><a href="https://github.com/ririli47" target="_blank">Github</a></li>
+   			<li><a href="https://qiita.com/ririli" target="_blank">Qiita</a></li>
+   		</ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container-fluid -->
+</nav>
 
-  <div id="home"></div>
+<div id="home"></div>
 
-<!-- main1 -->
-<div class="main1-app">
+<!--top-image-->
+<div class="top-image">
 <div class="container">
-<div class ="row">
+<div class="row">
 <div class="col-sm-8">
-
-  <h1>Ririli Portfolio</h1>
-
+  <h1>Ririli's Portfolio</h1>
 </div>
 </div>
 </div>
 </div>
 
-<!-- main2 -->
-<div class="main2-app">
+<!-- works -->
+<div class="works">
 <div class="container">
   <div id="work"></div>
 
 <div class ="row">
   <div class="col-sm-12">
-    <h2>Works</h2>
+    <h1>Works</h1>
   <div class="row">
   <div class="col-sm-4">
-    <div class="main2-sub">
+    <div class="work-sub">
       <a href="http://ririli-tasker.herokuapp.com" target="_blank"><img src="img/bg_main2_.jpg" alt="" class="img-responsive center-block" /></a>
-      <h3>Tasker</h3>
+      <h2>Tasker</h2>
       <p>This app named tasker.<br> We can manage our tasks and schedules with using tasker.</p>
     </div>
   </div>
@@ -96,53 +94,43 @@
 </div>
 </div>
 
-<div id="skill"></div>
-
-<div class="main5-app">
+<!-- skills -->
+<div class="skills">
 <div class="container">
 <div class="row">
 <div class="col-sm-12">
-    <h1>Skill set</h1>
+  <div id="skill"></div>
+  <h1>Skills</h1>
+</div>
+</div>
+<div id="front">
+<div class="row">
+<div class="col-sm-5">
+  <img src="img/bg_main1.JPG" alt="" class="img-responsive center-block">
+</div>
+<div class="col-sm-7">
+   <h2>FRONTEND SKILLS</h2>
+   <h3>HTML CSS JavaScript</h3>
+</div>
+</div>
+</div>
+<div id="back">
+<div class="row">
+<div class="col-sm-5">
+  <img src="img/pic2.JPG" alt="" class="img-responsive center-block">
+</div>
+<div class="col-sm-7">
+   <h2>BACKEND SKILLS</h2>
+   <h3>PHP Ruby Perl</h3>
+</div>
 </div>
 </div>
 </div>
 </div>
 
-<!-- main3 -->
-<div class="main3-app">
-<div class="container">
-<div class ="row">
-
-  <div class="col-sm-5">
-    <img src="img/bg_main1.JPG" alt="" class="img-responsive center-block">
-  </div>
-  <div class="col-sm-7">
-    <h2>BACKEND SKILLS</h2>
-    <h3>PHP, Ruby, Perl</h3>
-  </div>
-
-</div>
-</div>
-</div>
-
-<!-- main4 -->
-<div class="main4-app">
-<div class="container">
-<div class ="row">
-
-  <div class="col-sm-7">
-    <h2>FRONTEND SKILLS</h2>
-    <h3>HTML, CSS</h3>
-  </div>
-  <div class="col-sm-5">
-    <img src="img/pic2.JPG" alt="" class="img-responsive center-block">
-  </div>
-
-</div>
-</div>
-</div>
 
 <p id="page-top"><a href="#">PAGE TOP</a></p>
+
 
 
 <!--footer-->
@@ -169,7 +157,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>-->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<script src="js/hoge.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-color/2.1.2/jquery.color.min.js"></script>
+<script src="js/main.js"></script>
 
 </body>
 </html>
