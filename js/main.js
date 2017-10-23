@@ -28,3 +28,20 @@ $(function() {
     return false;
   });
 });
+
+$(function() {
+  $(window).scroll(function () {
+      if ($(this).scrollTop() > $('#front').offset().top -500) {
+        $('#front').stop().animate({ backgroundColor: "#ffcc00" }, 400);
+        //$('.skills').css('background-color','orange');
+      } else {
+        $('#front').stop().animate({ backgroundColor: "#ffffff" }, 400);
+      }
+      if ($(this).scrollTop() > $('#back').offset().top -500) {
+        $('#back').stop().animate({ backgroundColor: "#ccff00" }, 400);
+        //$('.skills').css('background-color','orange');
+      } else {
+        $('#back').stop().animate({ backgroundColor: "#ffffff" }, 400);
+      }
+  });
+})

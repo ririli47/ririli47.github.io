@@ -35,21 +35,83 @@ body	{font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;}
   }
 }
 
-
+#contents {
+    overflow: hidden;
+    padding: 60px;
+}
+div.section {
+    width: 500px;
+    background: #FFFFFF;
+    padding: 20px;
+    height: 400px;
+    float: left;
+    margin-right: 2px;
+}
+#nav {
+    list-style: none;
+    margin-bottom: 10px;
+    position: fixed;
+    left: 60px;
+    top: 30px;
+}
+#nav li {
+    display: inline;
+    margin-right: 0.5em;
+}
+#nav li a {
+    color: #fff;
+}
 /* works */
 .works {
-  padding: : 200px 0 150px 0;
+  padding: 100px 0 100px 0;
   background-color: #fff;
   text-align: center;
 }
 
+.works h1 {
+  margin: 100px 0 20px 0;
+  font-size: 40px;
+  line-height: 1.2;
+}
 
 .works h2 {
-  margin: 200px 0 20px 0;
+  margin: 25px 0 20px 0;
   font-size: 30px;
   line-height: 1.2;
 }
 
+/* skills */
+.skills {
+  padding: 100px 0 100px 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.skills h1 {
+  margin: 100px 0 20px 0;
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+.skills h2 {
+  margin: 100px 0 20px 0;
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+.skills h3 {
+  margin: 0px 0 0px 0;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.skills div#front {
+  margin: 50px 0 50px 0;
+}
+
+.skills div#back {
+  margin: 50px 0 50px 0;
+}
 
 
 /* footer */
