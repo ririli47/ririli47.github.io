@@ -14,7 +14,7 @@ body	{font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;}
 }
 
 
-.top-image h1 {
+.top-image h1#title {
   margin: 0 0 200px 0;
   font-size: 50px;
   font-family: 'sans-serif';
@@ -27,7 +27,7 @@ body	{font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;}
   .top-image {
     padding: 200px 0 0 0;
   }
-  .top-image h1 {
+  .top-image h1#title{
     font-size: 50px
   }
   .top-image p {
@@ -35,32 +35,7 @@ body	{font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;}
   }
 }
 
-#contents {
-    overflow: hidden;
-    padding: 60px;
-}
-div.section {
-    width: 500px;
-    background: #FFFFFF;
-    padding: 20px;
-    height: 400px;
-    float: left;
-    margin-right: 2px;
-}
-#nav {
-    list-style: none;
-    margin-bottom: 10px;
-    position: fixed;
-    left: 60px;
-    top: 30px;
-}
-#nav li {
-    display: inline;
-    margin-right: 0.5em;
-}
-#nav li a {
-    color: #fff;
-}
+
 /* works */
 .works {
   padding: 100px 0 100px 0;
