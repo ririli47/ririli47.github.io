@@ -82,10 +82,10 @@
 <div class="swiper-container">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
-      <div class="work-sub">
+<!--      <div class="work-sub"> -->
         <a href="http://ririli-tasker.herokuapp.com" target="_blank"><img src="img/bg_main2_.jpg" alt="" class="img-responsive center-block" width="600"/></a>
         <h2>Tasker</h2>
-      </div>
+<!--      </div> -->
     </div>
     <div class="swiper-slide">
       hoge
@@ -97,7 +97,6 @@
   <div class="swiper-pagination"></div>
   <div class="swiper-button-prev"></div>
   <div class="swiper-button-next"></div>
-  <div class="swiper-scrollbar"></div>
 </div>
 
 </div>
@@ -222,24 +221,20 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-color/2.1.2/jquery.color.min.js"></script>
 <script src="js/main.js"></script>
-<script src="js/swiper.js"></script>
-
+<!--<script src="js/swiper.js"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.js"></script>
 <!-- swiper初期化 -->
 <script>
 $(function() {
-  var swiper = new Swiper('.swiper-container', {
-    pagination: '.swiper-pagination',  // ページネーションを使う場合適用要素のクラスを指定。
-    nextButton: '.swiper-button-next',  // ナビゲーションボタンを使う場合次へボタン要素のクラスを指定。
-    prevButton: '.swiper-button-prev',  // ナビゲーションボタンを使う場合前へボタン要素のクラスを指定。
-    scrollbar: '.swiper-scrollbar',  // スクロールバーを使う場合適用要素のクラスを指定。
-
-    direction: 'horizontal',
-    speed: 800,
-    autoplay: {
-      delay: 5000,
-    },
-    loop: true,
-  });
+  var mySwiper = new Swiper ('.swiper-container', {
+	loop: true,
+	slidesPerView: 2,
+  	spaceBetween: 10,
+  	centeredSlides : true,
+	pagination: '.swiper-pagination',
+	nextButton: '.swiper-button-next',
+	prevButton: '.swiper-button-prev'
+  }); 
 });
 </script>
 
