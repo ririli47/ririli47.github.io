@@ -55,6 +55,9 @@ body	{font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;}
   line-height: 1.2;
 }
 
+.works div#sub-works {
+}
+
 /* skills */
 .skills {
   padding: 100px 0 100px 0;
