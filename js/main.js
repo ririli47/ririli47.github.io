@@ -43,12 +43,6 @@ $(function() {
       } else {
         $('#back').stop().animate({ backgroundColor: "#ffffff" }, 400);
       }
-      //WORKS
-      if ($(this).scrollTop() > $('#works').offset().top -500) {
-        $('#works').stop().animate({ backgroundColor: "#f9f9bc" }, 400);
-      } else {
-        $('#works').stop().animate({ backgroundColor: "#ffffff" }, 400);
-      }
   });
 });
 
