@@ -91,6 +91,14 @@ body	{font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;}
   margin: 50px 0 50px 0;
 }
 
+.skills div#sub-skills {
+  margin: 15px 0 15px 0;
+}
+
+.skills img#sub-skills {
+  height: 100px;
+  width: auto;
+}
 
 /* footer */
 .footer {

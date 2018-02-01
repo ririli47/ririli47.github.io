@@ -31,7 +31,7 @@ $(function() {
 
 $(function() {
   $(window).scroll(function () {
-    //FRONTEND works
+      //FRONTEND works
       if ($(this).scrollTop() > $('#front').offset().top -500) {
         $('#front').stop().animate({ backgroundColor: "#ffe993" }, 400);
       } else {
@@ -42,6 +42,12 @@ $(function() {
         $('#back').stop().animate({ backgroundColor: "#eeffab" }, 400);
       } else {
         $('#back').stop().animate({ backgroundColor: "#ffffff" }, 400);
+      }
+      //TECS
+      if ($(this).scrollTop() > $('#tecs').offset().top -500) {
+        $('#tecs').stop().animate({ backgroundColor: "#abfff2" }, 400);
+      } else {
+        $('#tecs').stop().animate({ backgroundColor: "#ffffff" }, 400);
       }
   });
 });
