@@ -84,19 +84,46 @@ body	{font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;}
 }
 
 .skills div#front {
-  margin: 50px 0 50px 0;
+  margin: 50px 0 25px 0;
+  padding: 50px 0 25px 0;
 }
 
 .skills div#back {
-  margin: 50px 0 50px 0;
+  margin: 50px 0 25px 0;
+  padding: 50px 0 25px 0;
+}
+
+.skills div#tecs {
+  margin: 50px 0 25px 0;
+  padding: 50px 0 25px 0;
 }
 
 .skills div#sub-skills {
-  margin: 15px 0 15px 0;
+  margin: 50px 0 50px 0;
 }
 
 .skills img#sub-skills {
   height: 100px;
+  width: auto;
+}
+
+
+/* read */
+
+.read {
+  padding: 100px 0 100px 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.read h1 {
+  margin: 100px 0 20px 0;
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+.read img#books {
+  height: 300px;
   width: auto;
 }
 
