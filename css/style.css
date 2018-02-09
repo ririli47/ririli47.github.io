@@ -107,6 +107,26 @@ body	{font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;}
   width: auto;
 }
 
+
+/* read */
+
+.read {
+  padding: 100px 0 100px 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.read h1 {
+  margin: 100px 0 20px 0;
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+.read img#books {
+  height: 300px;
+  width: auto;
+}
+
 /* footer */
 .footer {
   padding: 15px 0 25px 0;
