@@ -4,6 +4,3 @@ ririliのポートフォリオです。
 github pagesを利用しています。
 
 https://ririli47.github.io/
-
-
-use bootstrap
